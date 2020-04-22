@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    height: 100vh;
+}
+
+li {
+    list-style-type: none;
+    width: calc(100% / 10);
+    border: 1px solid black;
+    color: white;
+    background-color: orange;
+    height: 10vh;
+    line-height: 10vh;
+}
+
+.fizzbuzz {
+    background-color: red;
+}
+
+.fizz {
+    background-color: green;
+}
+
+.buzz {
+    background-color: blue;
+}
